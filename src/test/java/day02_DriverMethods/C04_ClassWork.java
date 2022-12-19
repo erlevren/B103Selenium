@@ -23,7 +23,6 @@ public class C04_ClassWork {
         //Amazon'da görüntülenen ilgili sonuçların sayısını yazdırın
         WebElement aramaSonucYazisi = driver.findElement(By.className("sg-col-inner"));
         System.out.println(aramaSonucYazisi.getText());
-
         //Sonra karşınıza çıkan ilk sonucun resmine tıklayın.
     }
 }
